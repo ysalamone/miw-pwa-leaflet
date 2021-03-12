@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useReducer } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from 'react-router-dom'
 import './App.css';
+import MapContext from "./contexts/MapContext";
+import mapReducer from "./reducers/mapReducer";
+import Map from "./components/Map";
 
-function App() {
+
+const App = () => {
+  const [state, dispatch] = useReducer(mapReducer, {markers: []})
+  const context = { state, dispatch }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <MapContext.Provider value={context}>
+        <Router>
+          <Switch>
+            <Route path="/map">
+              <Map />
+            </Route>
+            <Route path="/">
+              <Redirect to="/map"></Redirect>
+            </Route>
+          </Switch>
+        </Router>
+      </MapContext.Provider>
+  )
 }
 
 export default App;
