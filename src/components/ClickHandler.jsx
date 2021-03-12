@@ -6,7 +6,8 @@ const ClickHandler = () => {
 
     const { dispatch } = useContext(MapContext)
 
-    useMapEvent('click',(e) => {
+    useMapEvent('mousedown',(e) => {
+        console.log(e);
         dispatch({type: 'add_marker', data: {clicked: [e.latlng.lat, e.latlng.lng]} })
     })
     return null
