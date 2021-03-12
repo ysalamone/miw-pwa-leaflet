@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d36543b9-4635-4c52-8bd6-2fd1c24243e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/mapReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/mapReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615541762543</updated>
-      <workItem from="1615541763562" duration="5473000" />
+      <workItem from="1615541763562" duration="9018000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app">
       <created>1615542443375</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615542443375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="affichage carte + ajout marqueurs">
+      <created>1615554845878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615554845878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create-react-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="create-react-app" />
+    <MESSAGE value="affichage carte + ajout marqueurs" />
+    <option name="LAST_COMMIT_MESSAGE" value="affichage carte + ajout marqueurs" />
   </component>
   <component name="WindowStateProjectService">
     <state width="500" height="445" key="SwitcherDM" timestamp="1615543180143">
@@ -124,9 +130,9 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="385" y="194" width="670" height="675" key="run.anything.popup/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615543723211" />
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1615546543792">
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1615554783420">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615546543792" />
+    <state x="385" y="163" width="670" height="676" key="search.everywhere.popup/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615554783420" />
   </component>
 </project>
