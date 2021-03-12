@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d36543b9-4635-4c52-8bd6-2fd1c24243e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615541762543</updated>
-      <workItem from="1615541763562" duration="19128000" />
+      <workItem from="1615541763562" duration="19313000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app">
       <created>1615542443375</created>
@@ -148,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615568580453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="activation PWA">
+      <created>1615569254891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615569254891</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +179,8 @@
     <MESSAGE value="essai géolocalisation" />
     <MESSAGE value="nettoyage geoloc" />
     <MESSAGE value="remplissage infos" />
-    <option name="LAST_COMMIT_MESSAGE" value="remplissage infos" />
+    <MESSAGE value="activation PWA" />
+    <option name="LAST_COMMIT_MESSAGE" value="activation PWA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1071" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615564181727">
@@ -187,10 +191,11 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615562599443" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1615568581954">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1615569256345">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615568581954" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.815/-1920.25.1920.1055@0.25.1440.815" timestamp="1615569256345" />
     <state x="-1049" y="25" width="1049" height="795" key="dock-window-1" timestamp="1615554061132">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>

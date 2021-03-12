@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import { Link } from 'react-router-dom'
 import MapContext from "../contexts/MapContext";
 import ClickHandler from "./ClickHandler";
@@ -25,10 +25,8 @@ const Map = () => {
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                {markers.map((marker, index) => (
-                    <Marker key={index} position={marker.latlng}>
-                        <Popup>{index}</Popup>
-                    </Marker>
+                {markers.map(marker => (
+                    <Marker key={marker.id} position={marker.latlng} />
                 ))}
             </MapContainer>
         </>
