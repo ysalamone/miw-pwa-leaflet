@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d36543b9-4635-4c52-8bd6-2fd1c24243e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ClickHandler.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ClickHandler.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/mapReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/mapReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/MapContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/MapContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615541762543</updated>
-      <workItem from="1615541763562" duration="9018000" />
+      <workItem from="1615541763562" duration="13444000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app">
       <created>1615542443375</created>
@@ -90,7 +89,42 @@
       <option name="project" value="LOCAL" />
       <updated>1615554845878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="suppression marqueurs">
+      <created>1615558669820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615558669820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vérification avant vibration">
+      <created>1615559317558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559317558</updated>
+    </task>
+    <task id="LOCAL-00005" summary="id unique timestamp">
+      <created>1615561643744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615561643744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="affichage coordonnées marqueurs">
+      <created>1615562015974</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615562015974</updated>
+    </task>
+    <task id="LOCAL-00007" summary="correction marqueurs x2 safari">
+      <created>1615562432679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615562432680</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +144,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create-react-app" />
     <MESSAGE value="affichage carte + ajout marqueurs" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage carte + ajout marqueurs" />
+    <MESSAGE value="suppression marqueurs" />
+    <MESSAGE value="vérification avant vibration" />
+    <MESSAGE value="id unique timestamp" />
+    <MESSAGE value="affichage coordonnées marqueurs" />
+    <MESSAGE value="correction marqueurs x2 safari" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction marqueurs x2 safari" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="500" height="445" key="SwitcherDM" timestamp="1615543180143">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1615562599443">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615543180143" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1615542445889">
+    <state width="500" height="445" key="SwitcherDM/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615562599443" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1615562433923">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615542445889" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615562433923" />
     <state x="-1049" y="25" width="1049" height="795" key="dock-window-1" timestamp="1615554061132">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
