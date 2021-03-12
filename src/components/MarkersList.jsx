@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import { Link } from "react-router-dom";
 import MapContext from "../contexts/MapContext";
-import ClickHandler from "./ClickHandler";
 
 const MarkersList = () => {
 
@@ -17,6 +16,7 @@ const MarkersList = () => {
                 {markers.map(marker => (
                     <li key={marker.id}>
                         Marqueur nº{marker.id}<br/>
+                        {marker.latlng.toString()}<br/>
                         <MapContainer className="thumb-map" center={marker.latlng} zoom={16} scrollWheelZoom={false} attributionControl={false}>
                             <TileLayer
                                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
