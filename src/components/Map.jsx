@@ -13,7 +13,7 @@ const Map = () => {
     return (
         <>
             <h1>Carte Leaflet</h1>
-            <Link to="/markers">Gérer les marqueurs</Link>
+            <Link to="/markers">Gérer les marqueurs</Link> | <Link to="/info">Gérer mes infos</Link>
             <div>
                 <input type="checkbox" id="geoloc" value={state.geolocation} onChange={() => dispatch({type: 'toggle_geoloc', data: {geoloc: !state.geolocation} })}/>
                 <label htmlFor="geoloc">Activer la géolocalisation</label>

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import { useContext, useEffect } from 'react'
 import { useMap } from "react-leaflet";
 import MapContext from "../contexts/MapContext";
 
@@ -10,13 +10,12 @@ const Geolocation = () => {
     const getLocation = () => {
         if(navigator.geolocation && state.geolocation) {
             navigator.geolocation.getCurrentPosition((position) => {
-                console.log(position)
                 map.flyTo([position.coords.latitude, position.coords.longitude])
             });
         }
     }
 
-    useEffect(getLocation, [state.geolocation])
+    useEffect(getLocation, [map, state.geolocation])
 
     return null
 }

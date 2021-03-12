@@ -8,6 +8,8 @@ const mapReducer = (state, action) => {
             return {...state, markers: [...state.markers, { id: Date.now(), latlng: data.clicked } ]}
         case 'delete_marker':
             return {...state, markers: [...state.markers.filter(marker => marker.id !== data.selected)]}
+        case 'save_info':
+            return {...state, info: data.info}
         default:
             return {...state}
     }
