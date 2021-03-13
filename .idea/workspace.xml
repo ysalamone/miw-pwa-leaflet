@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d36543b9-4635-4c52-8bd6-2fd1c24243e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="yarn start" />
+      <command value="yarn build" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615541762543</updated>
-      <workItem from="1615541763562" duration="19503000" />
+      <workItem from="1615541763562" duration="19574000" />
+      <workItem from="1615646359918" duration="1165000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app">
       <created>1615542443375</created>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615569427230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ajout lien readme">
+      <created>1615569720263</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615569720263</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create-react-app" />
@@ -187,22 +199,40 @@
     <MESSAGE value="remplissage infos" />
     <MESSAGE value="activation PWA" />
     <MESSAGE value="suppression popup marker" />
-    <option name="LAST_COMMIT_MESSAGE" value="suppression popup marker" />
+    <MESSAGE value="ajout lien readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout lien readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1071" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615564181727">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1071" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615564181727" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1615647327623">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615647327623" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1615647327620">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615647327620" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1615647327618">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615647327618" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1615647327622">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615647327622" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1615562599443">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615562599443" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2" timestamp="1615569428602">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1615647485502">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615568581954" />
-    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.815/-1920.25.1920.1055@0.25.1440.815" timestamp="1615569428602" />
+    <state x="320" y="156" key="Vcs.Push.Dialog.v2/0.25.1440.815/-1920.25.1920.1055@0.25.1440.815" timestamp="1615569721688" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615647485502" />
     <state x="-1049" y="25" width="1049" height="795" key="dock-window-1" timestamp="1615554061132">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
@@ -212,10 +242,11 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615566365569" />
-    <state x="385" y="194" width="670" height="675" key="run.anything.popup" timestamp="1615543723211">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="385" y="195" width="670" height="680" key="run.anything.popup" timestamp="1615646384528">
+      <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="385" y="194" width="670" height="675" key="run.anything.popup/0.25.1440.814/-1920.25.1920.1055@0.25.1440.814" timestamp="1615543723211" />
+    <state x="385" y="195" width="670" height="680" key="run.anything.popup/0.25.1440.819/-1920.25.1920.1055@0.25.1440.819" timestamp="1615646384528" />
     <state x="385" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1615568494114">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
